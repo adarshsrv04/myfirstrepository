@@ -1,3 +1,7 @@
+/*
+Find maximum substring with no repeating characters
+*/
+
 #include<bits/stdc++.h>
 #define NO_OF_CHARS 256
 using namespace std;
