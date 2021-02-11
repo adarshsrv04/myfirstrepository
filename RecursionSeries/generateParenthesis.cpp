@@ -10,8 +10,7 @@ void validParenthesis(vector<string>& v, int n, int o, int c, string s) {
     }
     validParenthesis(v, n, o+1, c, s+"(");
     validParenthesis(v, n, o, c+1, s+")");
-}   
-
+}
 int main() {
 	int n;
 	cin >> n;
