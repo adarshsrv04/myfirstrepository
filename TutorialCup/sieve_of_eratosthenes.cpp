@@ -2,7 +2,7 @@
 using namespace std;
 
 //sieve of eratosthenes
-void seive(int n) {
+void sieve(int n) {
     bool a[n+1];
     a[0]=a[1]=false;
     for(int i=2; i<=n; i++) a[i]=true;
@@ -16,6 +16,6 @@ void seive(int n) {
 
 int main() {
     int n; cin>>n;
-    seive(n);
+    sieve(n);
 	return 0;
 }
